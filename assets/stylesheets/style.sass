@@ -1,3 +1,50 @@
-.active
-  font-weight: 800
+$fathom: #330033
+$sky: #0cf0cf
+$refraction: #d8f9ff
+$intoxicant: #60f60f
+$lust: #cc33ff
+
+body
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+  color: $lust
+  background: url('/assets/images/coral-carrier-incarnadine.gif') no-repeat center center fixed $fathom
+  background-size: cover
+
+  a
+    color: $sky
+
+  article
+    background: $refraction
+
+  img
+    width: 100%
+
+  pre
+    border: 1px solid $fathom
+    padding: 20px
+
+  code
+    font-weight: 600
+    color: $fathom
+    background: $intoxicant
+
+
+  h1
+    animation: blinker 6s linear infinite
+    text-align: center
+    background: url('/assets/images/coral-carrier-incarnadine.png') repeat bottom center fixed  $fathom
+    color: $sky
+
+
+  small
+    font-size: 10px
+
+  hr
+    opacity: 1
+    color: $sky
+    margin: 100px 0 100px 0
+
+  @keyframes blinker
+    50%
+      opacity: 0
 
