@@ -10,13 +10,15 @@ body {
   font-size: 1rem;
 }
 
-code,
-pre {
+.btn {
+  transition: none;
   color: #fff;
+  border-radius: 0;
+  border: 2px solid #fff;
 }
-
-hr {
-  opacity: 1;
+.btn:hover {
+  color: #000;
+  background: #fff;
 }
 
 img {
@@ -37,6 +39,26 @@ img:hover {
 
 article img {
   border: 1px solid #aff7ff;
+}
+article pre {
+  color: #000;
+  background: #fff;
+  padding: 1rem;
+}
+article code {
+  color: #000;
+  background: #fff;
+  padding: 0.5rem;
+}
+article pre code {
+  padding: 0;
+  background: none;
+}
+article hr {
+  opacity: 1;
+}
+article hr:not([size]) {
+  height: 2px;
 }
 
 nav {
