@@ -9,7 +9,7 @@
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:url" content="{{ site.url }}">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://cci.dev/assets/images/coral-carrier-incarnadine.gif"
+<meta property="og:image" content="https://cci.dev/assets/images/coral-carrier-incarnadine.gif">
 <meta property="og:description" content="{{ site.description }}">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="{{ site.twitter_site }}">
@@ -28,8 +28,17 @@
 {% feed_meta %}
 </head>
 <body>
-<div class="container-fluid">
+<div class="container">
   <div class="row">
+    <div class="col-9">
+
+    </div>
+    <div class="col-3">
+      <img src="/assets/images/cci.jpg" />
+      <a href="https://nor.the-rn.info" class="aspwd"><img src="/assets/images/applied-sciences-and-phantasms-working-division-flourescent.gif" /></a>
+    </div>
+  </div>
+  <!-- <div class="row">
     <div class="col col-md-6 col-lg-8 col-xl-10 offset-md-3 offset-lg-2 offset-xl-1">
       <hr>
       <img src="/assets/images/applied-sciences-and-phantasms-working-division-flourescent.gif" />
@@ -51,7 +60,7 @@
       <p><a href="https://nor.the-rn.info">https://nor.the-rn.info</a>, {{ site.time | date: '%Y' }}</p>
       <hr>
     </div>
-  </div>
+  </div> -->
 </div>
 </body>
 </html>

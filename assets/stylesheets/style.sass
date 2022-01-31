@@ -3,48 +3,27 @@ $sky: #0cf0cf
 $refraction: #d8f9ff
 $intoxicant: #60f60f
 $lust: #cc33ff
+$black: #000000
 
 body
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
-  color: $lust
-  background: url('/assets/images/coral-carrier-incarnadine.gif') no-repeat center center fixed $fathom
-  background-size: cover
+  color: $intoxicant
+  background: $black
 
-  a
-    color: $sky
-
-  article
-    background: $refraction
-
-  img
-    width: 100%
-
-  pre
-    border: 1px solid $fathom
-    padding: 20px
-
-  code
-    font-weight: 600
-    color: $fathom
-    background: $intoxicant
+img
+  width: 100%
 
 
-  h1
-    animation: blinker 6s linear infinite
-    text-align: center
-    background: url('/assets/images/coral-carrier-incarnadine.png') repeat bottom center fixed  $fathom
-    color: $sky
+.aspwd img
+  filter: none
+  -webkit-filter: grayscale(100%)
+  -moz-filter: grayscale(100%)
+  -ms-filter: grayscale(100%)
+  -o-filter: grayscale(100%)
 
-
-  small
-    font-size: 10px
-
-  hr
-    opacity: 1
-    color: $sky
-    margin: 100px 0 100px 0
-
-  @keyframes blinker
-    50%
-      opacity: 0
-
+.aspwd:hover img
+  filter: none
+  -webkit-filter: grayscale(0%)
+  -moz-filter: grayscale(0%)
+  -ms-filter: grayscale(0%)
+  -o-filter: grayscale(0%)
