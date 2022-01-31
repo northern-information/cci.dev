@@ -1,27 +1,61 @@
+::selection {
+  background: #feeb14;
+  color: #000;
+}
+
 body {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  color: #60f60f;
-  background: #000000;
+  color: #fff;
+  background: #000;
+  font-size: 1rem;
+}
+
+code,
+pre {
+  color: #fff;
+}
+
+hr {
+  opacity: 1;
 }
 
 img {
-  width: 100%;
-}
-
-.aspwd img {
   filter: none;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
+  width: 100%;
 }
 
-.aspwd:hover img {
-  filter: none;
+img:hover {
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   -ms-filter: grayscale(0%);
   -o-filter: grayscale(0%);
+}
+
+article img {
+  border: 1px solid #aff7ff;
+}
+
+nav {
+  text-align: center;
+  color: #fff;
+}
+nav h1, nav h2 {
+  font-size: 1rem;
+}
+nav h2 a {
+  text-decoration: underline;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+nav a:hover {
+  color: #feeb14;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
