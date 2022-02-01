@@ -37,6 +37,13 @@ img:hover {
   -o-filter: grayscale(0%);
 }
 
+.caution {
+  overflow: hidden;
+}
+
+article {
+  margin-bottom: 200px;
+}
 article img {
   border: 1px solid #aff7ff;
 }
