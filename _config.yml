@@ -9,6 +9,7 @@ url: https://cci.dev
 permalink: pretty
 sort_by: year, month
 markdown: kramdown
+include: ['_pages']
 kramdown:
   parse_block_html: true
 plugins:
