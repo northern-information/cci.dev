@@ -1,6 +1,7 @@
 <article>
-  <h1># {{ post.title | escape }}</h1>
-  <p class="mb-0"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date }}</time> by {{ post.author }}</p>
+  <h1><a href="{{ page.url }}"># {{ page.title | escape }}</a></h1>
+  <p><time>{{ page.date | date: "%b %-d, %Y" }}</time></p>
+  <p class="mb-0"><time datetime="{{ page.date | date_to_xmlschema }}"></p>
   <p class="caution">&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;.&#x25B0;</p>
-  {{ post.content }}
+  {{ page.content }}
 </article>

@@ -13,6 +13,12 @@ body
   background: $dark
   font-size: 1rem
 
+a
+  color: $light
+
+a:hover
+  color: $sun
+
 .btn
   transition: none
   color: $light
@@ -22,6 +28,7 @@ body
   &:hover
     color: $dark
     background: $light
+
 
 img
   filter: none
@@ -69,7 +76,6 @@ article
 
 
 nav
-  text-align: center
   color: $light
 
   h1, h2
@@ -85,3 +91,13 @@ nav
     &:hover
       color: $sun
       text-decoration: underline
+  
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+
+    li
+      margin: 0
+      text-align: left
+    

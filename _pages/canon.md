@@ -1,9 +1,7 @@
 ---
-layout: page
+layout: abstract
 permalink: /canon
 ---
-
-# Canon
 
 ## Ancient World
 

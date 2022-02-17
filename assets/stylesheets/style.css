@@ -10,6 +10,14 @@ body {
   font-size: 1rem;
 }
 
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #feeb14;
+}
+
 .btn {
   transition: none;
   color: #fff;
@@ -69,7 +77,6 @@ article hr:not([size]) {
 }
 
 nav {
-  text-align: center;
   color: #fff;
 }
 nav h1, nav h2 {
@@ -85,6 +92,15 @@ nav a {
 nav a:hover {
   color: #feeb14;
   text-decoration: underline;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul li {
+  margin: 0;
+  text-align: left;
 }
 
 /*# sourceMappingURL=style.css.map */
