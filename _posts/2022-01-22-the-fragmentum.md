@@ -25,4 +25,4 @@ FORMAT: <ADJ><.><n><fear></><SHAPE>
 3. SURF SURVEYOR PHTHALO
 4. TIDAL TUG CALAMINE
 
-`meta: this post doubles as our kit-css-hen sink`
+`meta: this post doubles as our kit-css-hen sink.`
